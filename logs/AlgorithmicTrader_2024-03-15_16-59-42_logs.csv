@@ -1,0 +1,530 @@
+2024-03-15 16:59:42,118: asyncio: INFO: [AlgorithmicTrader] Executing the initialize lifecycle method
+2024-03-15 16:59:42,744: root: INFO: Current backtesting datetime 2023-10-16 08:30:00-04:00
+2024-03-15 16:59:42,745: asyncio: INFO: [AlgorithmicTrader] Executing the before_market_opens lifecycle method
+2024-03-15 16:59:42,746: root: INFO: Current backtesting datetime 2023-10-16 09:30:00-04:00
+2024-03-15 16:59:42,746: asyncio: INFO: [AlgorithmicTrader] Executing the before_starting_trading lifecycle method
+2024-03-15 16:59:42,747: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 16:59:42
+2024-03-15 16:59:42,752: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 16:59:42,756: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 16:59:45,228: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: list indices must be integers or slices, not str
+2024-03-15 16:59:45,229: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 54, in on_trading_iteration
+    label = news_analysis['label']
+            ~~~~~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+2024-03-15 16:59:45,229: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 16:59:45,231: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 16:59:45,231: root: INFO: Current backtesting datetime 2023-10-16 16:00:00-04:00
+2024-03-15 16:59:45,231: root: INFO: Current backtesting datetime 2023-10-17 09:30:00-04:00
+2024-03-15 16:59:45,232: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 16:59:45
+2024-03-15 16:59:45,232: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 16:59:45,233: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 16:59:46,383: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: list indices must be integers or slices, not str
+2024-03-15 16:59:46,384: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 54, in on_trading_iteration
+    label = news_analysis['label']
+            ~~~~~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+2024-03-15 16:59:46,384: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 16:59:46,404: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 16:59:46,404: root: INFO: Current backtesting datetime 2023-10-17 16:00:00-04:00
+2024-03-15 16:59:46,405: root: INFO: Current backtesting datetime 2023-10-18 09:30:00-04:00
+2024-03-15 16:59:46,405: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 16:59:46
+2024-03-15 16:59:46,405: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 16:59:46,406: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 16:59:47,416: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: list indices must be integers or slices, not str
+2024-03-15 16:59:47,416: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 54, in on_trading_iteration
+    label = news_analysis['label']
+            ~~~~~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+2024-03-15 16:59:47,416: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 16:59:47,436: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 16:59:47,436: root: INFO: Current backtesting datetime 2023-10-18 16:00:00-04:00
+2024-03-15 16:59:47,436: root: INFO: Current backtesting datetime 2023-10-19 09:30:00-04:00
+2024-03-15 16:59:47,437: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 16:59:47
+2024-03-15 16:59:47,437: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 16:59:47,438: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 16:59:48,520: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: list indices must be integers or slices, not str
+2024-03-15 16:59:48,521: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 54, in on_trading_iteration
+    label = news_analysis['label']
+            ~~~~~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+2024-03-15 16:59:48,521: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 16:59:48,541: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 16:59:48,542: root: INFO: Current backtesting datetime 2023-10-19 16:00:00-04:00
+2024-03-15 16:59:48,542: root: INFO: Current backtesting datetime 2023-10-20 09:30:00-04:00
+2024-03-15 16:59:48,542: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 16:59:48
+2024-03-15 16:59:48,542: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 16:59:48,543: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 16:59:49,686: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: list indices must be integers or slices, not str
+2024-03-15 16:59:49,686: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 54, in on_trading_iteration
+    label = news_analysis['label']
+            ~~~~~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+2024-03-15 16:59:49,686: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 16:59:49,705: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 16:59:49,706: root: INFO: Current backtesting datetime 2023-10-20 16:00:00-04:00
+2024-03-15 16:59:49,706: root: INFO: Current backtesting datetime 2023-10-21 09:30:00-04:00
+2024-03-15 16:59:49,707: asyncio: INFO: [AlgorithmicTrader] The market is not currently open, skipping this trading iteration
+2024-03-15 16:59:49,708: root: INFO: Current backtesting datetime 2023-10-21 09:29:00-04:00
+2024-03-15 16:59:49,710: root: INFO: Current backtesting datetime 2023-10-21 09:29:00-04:00
+2024-03-15 16:59:49,710: asyncio: INFO: [AlgorithmicTrader] Executing the after_market_closes lifecycle method
+2024-03-15 16:59:49,711: root: INFO: Current backtesting datetime 2023-10-23 08:30:00-04:00
+2024-03-15 16:59:49,712: asyncio: INFO: [AlgorithmicTrader] Executing the before_market_opens lifecycle method
+2024-03-15 16:59:49,713: root: INFO: Current backtesting datetime 2023-10-23 09:30:00-04:00
+2024-03-15 16:59:49,713: asyncio: INFO: [AlgorithmicTrader] Executing the before_starting_trading lifecycle method
+2024-03-15 16:59:49,715: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 16:59:49
+2024-03-15 16:59:49,715: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 16:59:49,716: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 16:59:51,094: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: list indices must be integers or slices, not str
+2024-03-15 16:59:51,095: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 54, in on_trading_iteration
+    label = news_analysis['label']
+            ~~~~~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+2024-03-15 16:59:51,095: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 16:59:51,113: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 16:59:51,114: root: INFO: Current backtesting datetime 2023-10-23 16:00:00-04:00
+2024-03-15 16:59:51,114: root: INFO: Current backtesting datetime 2023-10-24 09:30:00-04:00
+2024-03-15 16:59:51,114: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 16:59:51
+2024-03-15 16:59:51,114: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 16:59:51,115: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 16:59:52,325: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: list indices must be integers or slices, not str
+2024-03-15 16:59:52,326: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 54, in on_trading_iteration
+    label = news_analysis['label']
+            ~~~~~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+2024-03-15 16:59:52,326: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 16:59:52,344: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 16:59:52,345: root: INFO: Current backtesting datetime 2023-10-24 16:00:00-04:00
+2024-03-15 16:59:52,345: root: INFO: Current backtesting datetime 2023-10-25 09:30:00-04:00
+2024-03-15 16:59:52,345: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 16:59:52
+2024-03-15 16:59:52,345: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 16:59:52,346: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 16:59:53,526: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: list indices must be integers or slices, not str
+2024-03-15 16:59:53,528: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 54, in on_trading_iteration
+    label = news_analysis['label']
+            ~~~~~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+2024-03-15 16:59:53,528: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 16:59:53,548: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 16:59:53,549: root: INFO: Current backtesting datetime 2023-10-25 16:00:00-04:00
+2024-03-15 16:59:53,549: root: INFO: Current backtesting datetime 2023-10-26 09:30:00-04:00
+2024-03-15 16:59:53,549: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 16:59:53
+2024-03-15 16:59:53,549: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 16:59:53,550: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 16:59:54,693: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: list indices must be integers or slices, not str
+2024-03-15 16:59:54,694: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 54, in on_trading_iteration
+    label = news_analysis['label']
+            ~~~~~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+2024-03-15 16:59:54,694: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 16:59:54,715: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 16:59:54,715: root: INFO: Current backtesting datetime 2023-10-26 16:00:00-04:00
+2024-03-15 16:59:54,716: root: INFO: Current backtesting datetime 2023-10-27 09:30:00-04:00
+2024-03-15 16:59:54,716: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 16:59:54
+2024-03-15 16:59:54,716: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 16:59:54,717: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 16:59:55,841: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: list indices must be integers or slices, not str
+2024-03-15 16:59:55,842: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 54, in on_trading_iteration
+    label = news_analysis['label']
+            ~~~~~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+2024-03-15 16:59:55,842: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 16:59:55,862: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 16:59:55,863: root: INFO: Current backtesting datetime 2023-10-27 16:00:00-04:00
+2024-03-15 16:59:55,863: root: INFO: Current backtesting datetime 2023-10-28 09:30:00-04:00
+2024-03-15 16:59:55,864: asyncio: INFO: [AlgorithmicTrader] The market is not currently open, skipping this trading iteration
+2024-03-15 16:59:55,865: root: INFO: Current backtesting datetime 2023-10-28 09:29:00-04:00
+2024-03-15 16:59:55,865: root: INFO: Current backtesting datetime 2023-10-28 09:29:00-04:00
+2024-03-15 16:59:55,865: asyncio: INFO: [AlgorithmicTrader] Executing the after_market_closes lifecycle method
+2024-03-15 16:59:55,866: root: INFO: Current backtesting datetime 2023-10-30 08:30:00-04:00
+2024-03-15 16:59:55,866: asyncio: INFO: [AlgorithmicTrader] Executing the before_market_opens lifecycle method
+2024-03-15 16:59:55,867: root: INFO: Current backtesting datetime 2023-10-30 09:30:00-04:00
+2024-03-15 16:59:55,867: asyncio: INFO: [AlgorithmicTrader] Executing the before_starting_trading lifecycle method
+2024-03-15 16:59:55,868: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 16:59:55
+2024-03-15 16:59:55,868: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 16:59:55,869: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 16:59:57,059: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: list indices must be integers or slices, not str
+2024-03-15 16:59:57,060: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 54, in on_trading_iteration
+    label = news_analysis['label']
+            ~~~~~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+2024-03-15 16:59:57,060: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 16:59:57,081: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 16:59:57,082: root: INFO: Current backtesting datetime 2023-10-30 16:00:00-04:00
+2024-03-15 16:59:57,082: root: INFO: Current backtesting datetime 2023-10-31 09:30:00-04:00
+2024-03-15 16:59:57,083: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 16:59:57
+2024-03-15 16:59:57,083: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 16:59:57,083: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 16:59:58,225: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: list indices must be integers or slices, not str
+2024-03-15 16:59:58,225: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 54, in on_trading_iteration
+    label = news_analysis['label']
+            ~~~~~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+2024-03-15 16:59:58,225: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 16:59:58,243: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 16:59:58,243: root: INFO: Current backtesting datetime 2023-10-31 16:00:00-04:00
+2024-03-15 16:59:58,244: root: INFO: Current backtesting datetime 2023-11-01 09:30:00-04:00
+2024-03-15 16:59:58,244: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 16:59:58
+2024-03-15 16:59:58,244: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 16:59:58,245: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 16:59:59,384: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: list indices must be integers or slices, not str
+2024-03-15 16:59:59,385: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 54, in on_trading_iteration
+    label = news_analysis['label']
+            ~~~~~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+2024-03-15 16:59:59,385: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 16:59:59,405: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 16:59:59,406: root: INFO: Current backtesting datetime 2023-11-01 16:00:00-04:00
+2024-03-15 16:59:59,406: root: INFO: Current backtesting datetime 2023-11-02 09:30:00-04:00
+2024-03-15 16:59:59,407: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 16:59:59
+2024-03-15 16:59:59,407: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 16:59:59,407: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:00:00,567: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: list indices must be integers or slices, not str
+2024-03-15 17:00:00,568: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 54, in on_trading_iteration
+    label = news_analysis['label']
+            ~~~~~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+2024-03-15 17:00:00,568: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 17:00:00,586: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:00:00,587: root: INFO: Current backtesting datetime 2023-11-02 16:00:00-04:00
+2024-03-15 17:00:00,587: root: INFO: Current backtesting datetime 2023-11-03 09:30:00-04:00
+2024-03-15 17:00:00,587: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:00:00
+2024-03-15 17:00:00,588: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:00:00,588: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:00:01,736: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: list indices must be integers or slices, not str
+2024-03-15 17:00:01,737: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 54, in on_trading_iteration
+    label = news_analysis['label']
+            ~~~~~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+2024-03-15 17:00:01,737: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 17:00:01,755: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:00:01,755: root: INFO: Current backtesting datetime 2023-11-03 16:00:00-04:00
+2024-03-15 17:00:01,755: root: INFO: Current backtesting datetime 2023-11-04 09:30:00-04:00
+2024-03-15 17:00:01,756: asyncio: INFO: [AlgorithmicTrader] The market is not currently open, skipping this trading iteration
+2024-03-15 17:00:01,757: root: INFO: Current backtesting datetime 2023-11-04 09:29:00-04:00
+2024-03-15 17:00:01,758: root: INFO: Current backtesting datetime 2023-11-04 09:29:00-04:00
+2024-03-15 17:00:01,758: asyncio: INFO: [AlgorithmicTrader] Executing the after_market_closes lifecycle method
+2024-03-15 17:00:01,758: root: INFO: Current backtesting datetime 2023-11-06 09:30:00-04:00
+2024-03-15 17:00:01,758: asyncio: INFO: [AlgorithmicTrader] Executing the before_market_opens lifecycle method
+2024-03-15 17:00:01,759: root: INFO: Current backtesting datetime 2023-11-06 10:30:00-04:00
+2024-03-15 17:00:01,759: asyncio: INFO: [AlgorithmicTrader] Executing the before_starting_trading lifecycle method
+2024-03-15 17:00:01,760: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:00:01
+2024-03-15 17:00:01,760: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:00:01,760: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:00:03,090: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: list indices must be integers or slices, not str
+2024-03-15 17:00:03,091: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 54, in on_trading_iteration
+    label = news_analysis['label']
+            ~~~~~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+2024-03-15 17:00:03,091: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 17:00:03,109: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:00:03,109: root: INFO: Current backtesting datetime 2023-11-06 17:00:00-04:00
+2024-03-15 17:00:03,109: root: INFO: Current backtesting datetime 2023-11-07 10:30:00-04:00
+2024-03-15 17:00:03,110: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:00:03
+2024-03-15 17:00:03,110: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:00:03,111: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:00:04,643: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: list indices must be integers or slices, not str
+2024-03-15 17:00:04,645: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 54, in on_trading_iteration
+    label = news_analysis['label']
+            ~~~~~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+2024-03-15 17:00:04,645: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 17:00:04,671: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:00:04,672: root: INFO: Current backtesting datetime 2023-11-07 17:00:00-04:00
+2024-03-15 17:00:04,672: root: INFO: Current backtesting datetime 2023-11-08 10:30:00-04:00
+2024-03-15 17:00:04,672: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:00:04
+2024-03-15 17:00:04,672: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:00:04,673: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:00:06,035: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: list indices must be integers or slices, not str
+2024-03-15 17:00:06,036: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 54, in on_trading_iteration
+    label = news_analysis['label']
+            ~~~~~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+2024-03-15 17:00:06,036: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 17:00:06,059: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:00:06,060: root: INFO: Current backtesting datetime 2023-11-08 17:00:00-04:00
+2024-03-15 17:00:06,060: root: INFO: Current backtesting datetime 2023-11-09 10:30:00-04:00
+2024-03-15 17:00:06,061: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:00:06
+2024-03-15 17:00:06,061: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:00:06,062: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:00:07,997: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: list indices must be integers or slices, not str
+2024-03-15 17:00:07,998: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 54, in on_trading_iteration
+    label = news_analysis['label']
+            ~~~~~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+2024-03-15 17:00:07,998: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 17:00:08,037: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:00:08,038: root: INFO: Current backtesting datetime 2023-11-09 17:00:00-04:00
+2024-03-15 17:00:08,038: root: INFO: Current backtesting datetime 2023-11-10 10:30:00-04:00
+2024-03-15 17:00:08,039: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:00:08
+2024-03-15 17:00:08,039: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:00:08,041: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:00:09,937: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: list indices must be integers or slices, not str
+2024-03-15 17:00:09,937: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 54, in on_trading_iteration
+    label = news_analysis['label']
+            ~~~~~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+2024-03-15 17:00:09,938: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 17:00:09,961: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:00:09,961: root: INFO: Current backtesting datetime 2023-11-10 17:00:00-04:00
+2024-03-15 17:00:09,961: root: INFO: Current backtesting datetime 2023-11-11 10:30:00-04:00
+2024-03-15 17:00:09,962: asyncio: INFO: [AlgorithmicTrader] The market is not currently open, skipping this trading iteration
+2024-03-15 17:00:09,963: root: INFO: Current backtesting datetime 2023-11-11 10:29:00-04:00
+2024-03-15 17:00:09,964: root: INFO: Current backtesting datetime 2023-11-11 10:29:00-04:00
+2024-03-15 17:00:09,964: asyncio: INFO: [AlgorithmicTrader] Executing the after_market_closes lifecycle method
+2024-03-15 17:00:09,965: root: INFO: Current backtesting datetime 2023-11-13 09:30:00-04:00
+2024-03-15 17:00:09,965: asyncio: INFO: [AlgorithmicTrader] Executing the before_market_opens lifecycle method
+2024-03-15 17:00:09,966: root: INFO: Current backtesting datetime 2023-11-13 10:30:00-04:00
+2024-03-15 17:00:09,966: asyncio: INFO: [AlgorithmicTrader] Executing the before_starting_trading lifecycle method
+2024-03-15 17:00:09,967: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:00:09
+2024-03-15 17:00:09,967: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:00:09,968: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:00:11,361: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: list indices must be integers or slices, not str
+2024-03-15 17:00:11,362: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 54, in on_trading_iteration
+    label = news_analysis['label']
+            ~~~~~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+2024-03-15 17:00:11,362: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 17:00:11,389: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:00:11,390: root: INFO: Current backtesting datetime 2023-11-13 17:00:00-04:00
+2024-03-15 17:00:11,390: root: INFO: Current backtesting datetime 2023-11-14 10:30:00-04:00
+2024-03-15 17:00:11,391: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:00:11
+2024-03-15 17:00:11,391: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:00:11,392: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:00:12,700: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: list indices must be integers or slices, not str
+2024-03-15 17:00:12,701: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 54, in on_trading_iteration
+    label = news_analysis['label']
+            ~~~~~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+2024-03-15 17:00:12,701: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 17:00:12,727: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:00:12,728: root: INFO: Current backtesting datetime 2023-11-14 17:00:00-04:00
+2024-03-15 17:00:12,728: root: INFO: Current backtesting datetime 2023-11-15 10:30:00-04:00
+2024-03-15 17:00:12,728: root: INFO: Current backtesting datetime 2023-11-15 16:59:00-04:00
+2024-03-15 17:00:12,729: asyncio: INFO: [AlgorithmicTrader] Executing the before_market_closes lifecycle method
+2024-03-15 17:00:12,730: root: INFO: Current backtesting datetime 2023-11-15 17:00:00-04:00
+2024-03-15 17:00:12,730: asyncio: INFO: [AlgorithmicTrader] Executing the after_market_closes lifecycle method
+2024-03-15 17:00:12,730: asyncio: INFO: [AlgorithmicTrader] Executing the on_strategy_end lifecycle method
+2024-03-15 17:00:12,753: root: INFO: Backtesting finished
+2024-03-15 17:00:12,769: root: INFO: There were no trades in this backtest.
+2024-03-15 17:00:12,894: root: ERROR: Not enough data to create a tearsheet, at least 2 days of data are required. Skipping
+2024-03-15 17:00:12,894: backtest_stats: INFO: Backtest took 0:00:30.778850 for a speed of 0.000

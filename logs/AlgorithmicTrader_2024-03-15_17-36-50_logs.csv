@@ -1,0 +1,201 @@
+2024-03-15 17:36:50,430: asyncio: INFO: [AlgorithmicTrader] Executing the initialize lifecycle method
+2024-03-15 17:36:50,497: alpaca.trading.stream: INFO: connected to: BaseURL.TRADING_STREAM_PAPER
+2024-03-15 17:36:51,053: root: INFO: Current backtesting datetime 2023-10-16 08:30:00-04:00
+2024-03-15 17:36:51,054: asyncio: INFO: [AlgorithmicTrader] Executing the before_market_opens lifecycle method
+2024-03-15 17:36:51,054: root: INFO: Current backtesting datetime 2023-10-16 09:30:00-04:00
+2024-03-15 17:36:51,054: asyncio: INFO: [AlgorithmicTrader] Executing the before_starting_trading lifecycle method
+2024-03-15 17:36:51,061: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:36:51
+2024-03-15 17:36:51,061: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:36:51,066: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:36:53,571: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 17:36:53
+2024-03-15 17:36:53,572: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:36:53,572: root: INFO: Current backtesting datetime 2023-10-16 16:00:00-04:00
+2024-03-15 17:36:53,573: root: INFO: Current backtesting datetime 2023-10-17 09:30:00-04:00
+2024-03-15 17:36:53,573: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:36:53
+2024-03-15 17:36:53,573: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:36:53,574: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:36:54,708: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 17:36:54
+2024-03-15 17:36:54,709: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:36:54,710: root: INFO: Current backtesting datetime 2023-10-17 16:00:00-04:00
+2024-03-15 17:36:54,710: root: INFO: Current backtesting datetime 2023-10-18 09:30:00-04:00
+2024-03-15 17:36:54,710: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:36:54
+2024-03-15 17:36:54,711: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:36:54,711: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:36:55,810: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 17:36:55
+2024-03-15 17:36:55,811: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:36:55,812: root: INFO: Current backtesting datetime 2023-10-18 16:00:00-04:00
+2024-03-15 17:36:55,812: root: INFO: Current backtesting datetime 2023-10-19 09:30:00-04:00
+2024-03-15 17:36:55,812: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:36:55
+2024-03-15 17:36:55,812: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:36:55,813: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:36:56,901: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 17:36:56
+2024-03-15 17:36:56,902: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:36:56,902: root: INFO: Current backtesting datetime 2023-10-19 16:00:00-04:00
+2024-03-15 17:36:56,902: root: INFO: Current backtesting datetime 2023-10-20 09:30:00-04:00
+2024-03-15 17:36:56,903: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:36:56
+2024-03-15 17:36:56,903: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:36:56,904: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:36:58,069: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 17:36:58
+2024-03-15 17:36:58,070: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:36:58,070: root: INFO: Current backtesting datetime 2023-10-20 16:00:00-04:00
+2024-03-15 17:36:58,071: root: INFO: Current backtesting datetime 2023-10-21 09:30:00-04:00
+2024-03-15 17:36:58,071: asyncio: INFO: [AlgorithmicTrader] The market is not currently open, skipping this trading iteration
+2024-03-15 17:36:58,073: root: INFO: Current backtesting datetime 2023-10-21 09:29:00-04:00
+2024-03-15 17:36:58,073: root: INFO: Current backtesting datetime 2023-10-21 09:29:00-04:00
+2024-03-15 17:36:58,074: asyncio: INFO: [AlgorithmicTrader] Executing the after_market_closes lifecycle method
+2024-03-15 17:36:58,074: root: INFO: Current backtesting datetime 2023-10-23 08:30:00-04:00
+2024-03-15 17:36:58,074: asyncio: INFO: [AlgorithmicTrader] Executing the before_market_opens lifecycle method
+2024-03-15 17:36:58,075: root: INFO: Current backtesting datetime 2023-10-23 09:30:00-04:00
+2024-03-15 17:36:58,075: asyncio: INFO: [AlgorithmicTrader] Executing the before_starting_trading lifecycle method
+2024-03-15 17:36:58,076: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:36:58
+2024-03-15 17:36:58,076: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:36:58,077: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:36:59,272: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 17:36:59
+2024-03-15 17:36:59,273: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:36:59,274: root: INFO: Current backtesting datetime 2023-10-23 16:00:00-04:00
+2024-03-15 17:36:59,274: root: INFO: Current backtesting datetime 2023-10-24 09:30:00-04:00
+2024-03-15 17:36:59,274: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:36:59
+2024-03-15 17:36:59,274: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:36:59,275: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:00,334: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 17:37:00
+2024-03-15 17:37:00,335: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:37:00,336: root: INFO: Current backtesting datetime 2023-10-24 16:00:00-04:00
+2024-03-15 17:37:00,336: root: INFO: Current backtesting datetime 2023-10-25 09:30:00-04:00
+2024-03-15 17:37:00,336: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:37:00
+2024-03-15 17:37:00,336: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:00,337: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:01,438: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 17:37:01
+2024-03-15 17:37:01,439: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:37:01,440: root: INFO: Current backtesting datetime 2023-10-25 16:00:00-04:00
+2024-03-15 17:37:01,440: root: INFO: Current backtesting datetime 2023-10-26 09:30:00-04:00
+2024-03-15 17:37:01,440: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:37:01
+2024-03-15 17:37:01,441: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:01,441: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:02,589: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 17:37:02
+2024-03-15 17:37:02,590: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:37:02,590: root: INFO: Current backtesting datetime 2023-10-26 16:00:00-04:00
+2024-03-15 17:37:02,590: root: INFO: Current backtesting datetime 2023-10-27 09:30:00-04:00
+2024-03-15 17:37:02,591: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:37:02
+2024-03-15 17:37:02,591: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:02,592: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:03,718: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 17:37:03
+2024-03-15 17:37:03,719: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:37:03,719: root: INFO: Current backtesting datetime 2023-10-27 16:00:00-04:00
+2024-03-15 17:37:03,719: root: INFO: Current backtesting datetime 2023-10-28 09:30:00-04:00
+2024-03-15 17:37:03,720: asyncio: INFO: [AlgorithmicTrader] The market is not currently open, skipping this trading iteration
+2024-03-15 17:37:03,721: root: INFO: Current backtesting datetime 2023-10-28 09:29:00-04:00
+2024-03-15 17:37:03,721: root: INFO: Current backtesting datetime 2023-10-28 09:29:00-04:00
+2024-03-15 17:37:03,721: asyncio: INFO: [AlgorithmicTrader] Executing the after_market_closes lifecycle method
+2024-03-15 17:37:03,722: root: INFO: Current backtesting datetime 2023-10-30 08:30:00-04:00
+2024-03-15 17:37:03,722: asyncio: INFO: [AlgorithmicTrader] Executing the before_market_opens lifecycle method
+2024-03-15 17:37:03,723: root: INFO: Current backtesting datetime 2023-10-30 09:30:00-04:00
+2024-03-15 17:37:03,723: asyncio: INFO: [AlgorithmicTrader] Executing the before_starting_trading lifecycle method
+2024-03-15 17:37:03,724: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:37:03
+2024-03-15 17:37:03,724: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:03,724: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:04,920: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 17:37:04
+2024-03-15 17:37:04,921: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:37:04,922: root: INFO: Current backtesting datetime 2023-10-30 16:00:00-04:00
+2024-03-15 17:37:04,922: root: INFO: Current backtesting datetime 2023-10-31 09:30:00-04:00
+2024-03-15 17:37:04,922: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:37:04
+2024-03-15 17:37:04,922: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:04,923: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:06,106: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 17:37:06
+2024-03-15 17:37:06,107: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:37:06,108: root: INFO: Current backtesting datetime 2023-10-31 16:00:00-04:00
+2024-03-15 17:37:06,108: root: INFO: Current backtesting datetime 2023-11-01 09:30:00-04:00
+2024-03-15 17:37:06,108: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:37:06
+2024-03-15 17:37:06,109: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:06,109: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:07,244: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 17:37:07
+2024-03-15 17:37:07,244: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:37:07,245: root: INFO: Current backtesting datetime 2023-11-01 16:00:00-04:00
+2024-03-15 17:37:07,245: root: INFO: Current backtesting datetime 2023-11-02 09:30:00-04:00
+2024-03-15 17:37:07,246: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:37:07
+2024-03-15 17:37:07,246: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:07,247: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:08,589: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 17:37:08
+2024-03-15 17:37:08,590: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:37:08,590: root: INFO: Current backtesting datetime 2023-11-02 16:00:00-04:00
+2024-03-15 17:37:08,590: root: INFO: Current backtesting datetime 2023-11-03 09:30:00-04:00
+2024-03-15 17:37:08,591: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:37:08
+2024-03-15 17:37:08,591: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:08,591: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:09,706: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 17:37:09
+2024-03-15 17:37:09,707: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:37:09,707: root: INFO: Current backtesting datetime 2023-11-03 16:00:00-04:00
+2024-03-15 17:37:09,707: root: INFO: Current backtesting datetime 2023-11-04 09:30:00-04:00
+2024-03-15 17:37:09,708: asyncio: INFO: [AlgorithmicTrader] The market is not currently open, skipping this trading iteration
+2024-03-15 17:37:09,709: root: INFO: Current backtesting datetime 2023-11-04 09:29:00-04:00
+2024-03-15 17:37:09,710: root: INFO: Current backtesting datetime 2023-11-04 09:29:00-04:00
+2024-03-15 17:37:09,710: asyncio: INFO: [AlgorithmicTrader] Executing the after_market_closes lifecycle method
+2024-03-15 17:37:09,711: root: INFO: Current backtesting datetime 2023-11-06 09:30:00-04:00
+2024-03-15 17:37:09,711: asyncio: INFO: [AlgorithmicTrader] Executing the before_market_opens lifecycle method
+2024-03-15 17:37:09,712: root: INFO: Current backtesting datetime 2023-11-06 10:30:00-04:00
+2024-03-15 17:37:09,712: asyncio: INFO: [AlgorithmicTrader] Executing the before_starting_trading lifecycle method
+2024-03-15 17:37:09,712: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:37:09
+2024-03-15 17:37:09,712: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:09,713: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:10,925: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 17:37:10
+2024-03-15 17:37:10,926: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:37:10,926: root: INFO: Current backtesting datetime 2023-11-06 17:00:00-04:00
+2024-03-15 17:37:10,927: root: INFO: Current backtesting datetime 2023-11-07 10:30:00-04:00
+2024-03-15 17:37:10,927: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:37:10
+2024-03-15 17:37:10,927: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:10,928: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:12,274: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 17:37:12
+2024-03-15 17:37:12,275: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:37:12,276: root: INFO: Current backtesting datetime 2023-11-07 17:00:00-04:00
+2024-03-15 17:37:12,276: root: INFO: Current backtesting datetime 2023-11-08 10:30:00-04:00
+2024-03-15 17:37:12,276: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:37:12
+2024-03-15 17:37:12,276: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:12,277: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:13,520: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 17:37:13
+2024-03-15 17:37:13,521: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:37:13,521: root: INFO: Current backtesting datetime 2023-11-08 17:00:00-04:00
+2024-03-15 17:37:13,521: root: INFO: Current backtesting datetime 2023-11-09 10:30:00-04:00
+2024-03-15 17:37:13,522: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:37:13
+2024-03-15 17:37:13,522: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:13,523: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:14,642: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 17:37:14
+2024-03-15 17:37:14,643: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:37:14,644: root: INFO: Current backtesting datetime 2023-11-09 17:00:00-04:00
+2024-03-15 17:37:14,644: root: INFO: Current backtesting datetime 2023-11-10 10:30:00-04:00
+2024-03-15 17:37:14,645: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:37:14
+2024-03-15 17:37:14,645: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:14,645: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:15,900: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 17:37:15
+2024-03-15 17:37:15,901: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:37:15,901: root: INFO: Current backtesting datetime 2023-11-10 17:00:00-04:00
+2024-03-15 17:37:15,901: root: INFO: Current backtesting datetime 2023-11-11 10:30:00-04:00
+2024-03-15 17:37:15,902: asyncio: INFO: [AlgorithmicTrader] The market is not currently open, skipping this trading iteration
+2024-03-15 17:37:15,903: root: INFO: Current backtesting datetime 2023-11-11 10:29:00-04:00
+2024-03-15 17:37:15,904: root: INFO: Current backtesting datetime 2023-11-11 10:29:00-04:00
+2024-03-15 17:37:15,904: asyncio: INFO: [AlgorithmicTrader] Executing the after_market_closes lifecycle method
+2024-03-15 17:37:15,904: root: INFO: Current backtesting datetime 2023-11-13 09:30:00-04:00
+2024-03-15 17:37:15,905: asyncio: INFO: [AlgorithmicTrader] Executing the before_market_opens lifecycle method
+2024-03-15 17:37:15,905: root: INFO: Current backtesting datetime 2023-11-13 10:30:00-04:00
+2024-03-15 17:37:15,905: asyncio: INFO: [AlgorithmicTrader] Executing the before_starting_trading lifecycle method
+2024-03-15 17:37:15,906: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:37:15
+2024-03-15 17:37:15,906: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:15,907: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:17,156: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 17:37:17
+2024-03-15 17:37:17,157: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:37:17,157: root: INFO: Current backtesting datetime 2023-11-13 17:00:00-04:00
+2024-03-15 17:37:17,157: root: INFO: Current backtesting datetime 2023-11-14 10:30:00-04:00
+2024-03-15 17:37:17,158: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 17:37:17
+2024-03-15 17:37:17,158: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:17,158: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 17:37:18,306: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 17:37:18
+2024-03-15 17:37:18,307: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 17:37:18,308: root: INFO: Current backtesting datetime 2023-11-14 17:00:00-04:00
+2024-03-15 17:37:18,308: root: INFO: Current backtesting datetime 2023-11-15 10:30:00-04:00
+2024-03-15 17:37:18,309: root: INFO: Current backtesting datetime 2023-11-15 16:59:00-04:00
+2024-03-15 17:37:18,309: asyncio: INFO: [AlgorithmicTrader] Executing the before_market_closes lifecycle method
+2024-03-15 17:37:18,309: root: INFO: Current backtesting datetime 2023-11-15 17:00:00-04:00
+2024-03-15 17:37:18,309: asyncio: INFO: [AlgorithmicTrader] Executing the after_market_closes lifecycle method
+2024-03-15 17:37:18,309: asyncio: INFO: [AlgorithmicTrader] Executing the on_strategy_end lifecycle method
+2024-03-15 17:37:18,331: root: INFO: Backtesting finished
+2024-03-15 17:37:18,342: root: INFO: There were no trades in this backtest.
+2024-03-15 17:37:18,435: root: ERROR: Not enough data to create a tearsheet, at least 2 days of data are required. Skipping
+2024-03-15 17:37:18,436: backtest_stats: INFO: Backtest took 0:00:28.006555 for a speed of 0.000

@@ -1,0 +1,7 @@
+time,strategy,identifier,symbol,side,type,status,multiplier,time_in_force,asset.strike,asset.multiplier,asset.asset_type,price,filled_quantity,trade_cost
+2023-09-06 09:30:00-04:00,AlgorithmicTrader,a8ca39c20e2d4a84a0922baef7ae3a40,SPY,buy,market,new,1,gtc,0.0,1,stock,,,
+2023-09-06 09:30:00-04:00,AlgorithmicTrader,a8ca39c20e2d4a84a0922baef7ae3a40,SPY,buy,market,fill,1,gtc,0.0,1,stock,448.3999938964844,111,0.0
+2023-09-26 09:30:00-04:00,AlgorithmicTrader,ba98da6b9bff41829d5efb60c9350c91,SPY,sell,limit,canceled,1,day,0.0,1,stock,,,
+2023-09-26 09:30:00-04:00,AlgorithmicTrader,9344edf9fec54102b720ac1e28722337,SPY,sell,stop,fill,1,day,0.0,1,stock,425.97999420166013,111,0.0
+2023-09-27 09:30:00-04:00,AlgorithmicTrader,0e1613e10689474791ef2c1f3394bb92,SPY,buy,market,new,1,gtc,0.0,1,stock,,,
+2023-09-27 09:30:00-04:00,AlgorithmicTrader,0e1613e10689474791ef2c1f3394bb92,SPY,buy,market,fill,1,gtc,0.0,1,stock,427.0899963378906,114,0.0
