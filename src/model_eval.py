@@ -23,7 +23,7 @@ def evaluate_model(pipeline, df):
     return accuracy_score(df['label'], mapped_predictions)
 
 # data_size = 300
-df = pd.read_csv('all-data.csv', encoding='ISO-8859-1')
+df = pd.read_csv('../all-data.csv', encoding='ISO-8859-1')
 # df = df[:data_size + 1]
 
 accuracy_tone = evaluate_model(pipeline_TEST, df)

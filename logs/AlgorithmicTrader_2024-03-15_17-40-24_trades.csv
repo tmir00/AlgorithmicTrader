@@ -1,3 +1,0 @@
-time,strategy,identifier,symbol,side,type,status,multiplier,time_in_force,asset.strike,asset.multiplier,asset.asset_type,price,filled_quantity,trade_cost
-2023-11-14 09:30:00-05:00,AlgorithmicTrader,ae1633d9284f4e16bca82c31c54b25d6,SPY,sell,market,new,1,gtc,0.0,1,stock,,,
-2023-11-14 09:30:00-05:00,AlgorithmicTrader,ae1633d9284f4e16bca82c31c54b25d6,SPY,sell,market,fill,1,gtc,0.0,1,stock,446.32000732421875,112.0,0.0
