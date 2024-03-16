@@ -4841,3 +4841,1339 @@ TypeError: 'Position' object is not subscriptable
 2024-03-15 22:54:53,760: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:54:53
 2024-03-15 22:54:53,760: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
 2024-03-15 22:54:53,760: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:54,630: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: 'Position' object is not subscriptable
+2024-03-15 22:54:54,631: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 63, in on_trading_iteration
+TypeError: 'Position' object is not subscriptable
+
+2024-03-15 22:54:54,631: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 22:54:54,650: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:54:54,650: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:54,651: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:54,651: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:54:54,651: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:54,651: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:54,652: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:54:54,652: root: INFO: Current backtesting datetime 2022-08-31 15:00:00-05:00
+2024-03-15 22:54:54,653: root: INFO: Current backtesting datetime 2022-09-01 08:30:00-05:00
+2024-03-15 22:54:54,653: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:54:54
+2024-03-15 22:54:54,653: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:54,654: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:55,574: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: 'Position' object is not subscriptable
+2024-03-15 22:54:55,574: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 63, in on_trading_iteration
+TypeError: 'Position' object is not subscriptable
+
+2024-03-15 22:54:55,575: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 22:54:55,603: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:54:55,603: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:55,604: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:55,604: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:54:55,604: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:55,605: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:55,606: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:54:55,606: root: INFO: Current backtesting datetime 2022-09-01 15:00:00-05:00
+2024-03-15 22:54:55,607: root: INFO: Current backtesting datetime 2022-09-02 08:30:00-05:00
+2024-03-15 22:54:55,608: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:54:55
+2024-03-15 22:54:55,608: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:55,608: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:56,596: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 22:54:56
+2024-03-15 22:54:56,597: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:54:56,597: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:56,597: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:56,598: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:54:56,598: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:56,598: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:56,599: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:54:56,599: root: INFO: Current backtesting datetime 2022-09-02 15:00:00-05:00
+2024-03-15 22:54:56,600: root: INFO: Current backtesting datetime 2022-09-03 08:30:00-05:00
+2024-03-15 22:54:56,600: asyncio: INFO: [AlgorithmicTrader] The market is not currently open, skipping this trading iteration
+2024-03-15 22:54:56,600: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:54:56,600: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:56,601: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:56,601: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:54:56,601: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:56,601: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:56,602: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:54:56,602: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:56,602: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:56,603: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:54:56,603: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:56,603: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:56,604: root: INFO: Current backtesting datetime 2022-09-03 08:29:00-05:00
+2024-03-15 22:54:56,604: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:54:56,604: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:56,604: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:56,605: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:54:56,605: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:56,605: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:56,606: root: INFO: Current backtesting datetime 2022-09-03 08:29:00-05:00
+2024-03-15 22:54:56,606: asyncio: INFO: [AlgorithmicTrader] Executing the after_market_closes lifecycle method
+2024-03-15 22:54:56,606: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:54:56,606: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:56,606: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:56,606: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:54:56,606: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:56,607: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:56,607: root: INFO: Current backtesting datetime 2022-09-06 07:30:00-05:00
+2024-03-15 22:54:56,608: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:56,608: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:56,609: asyncio: INFO: [AlgorithmicTrader] Executing the before_market_opens lifecycle method
+2024-03-15 22:54:56,609: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:54:56,609: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:56,609: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:56,610: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:54:56,610: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:56,610: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:56,611: root: INFO: Current backtesting datetime 2022-09-06 08:30:00-05:00
+2024-03-15 22:54:56,611: asyncio: INFO: [AlgorithmicTrader] Executing the before_starting_trading lifecycle method
+2024-03-15 22:54:56,612: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:54:56
+2024-03-15 22:54:56,612: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:56,613: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:57,127: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 22:54:57
+2024-03-15 22:54:57,127: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:54:57,127: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:57,127: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:57,129: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:54:57,129: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:57,129: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:57,130: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:54:57,131: root: INFO: Current backtesting datetime 2022-09-06 15:00:00-05:00
+2024-03-15 22:54:57,131: root: INFO: Current backtesting datetime 2022-09-07 08:30:00-05:00
+2024-03-15 22:54:57,132: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:54:57
+2024-03-15 22:54:57,132: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:57,132: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:58,141: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: 'Position' object is not subscriptable
+2024-03-15 22:54:58,142: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 79, in on_trading_iteration
+TypeError: 'Position' object is not subscriptable
+
+2024-03-15 22:54:58,142: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 22:54:58,165: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:54:58,165: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:58,165: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:58,166: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:54:58,166: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:58,166: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:58,167: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:54:58,168: root: INFO: Current backtesting datetime 2022-09-07 15:00:00-05:00
+2024-03-15 22:54:58,168: root: INFO: Current backtesting datetime 2022-09-08 08:30:00-05:00
+2024-03-15 22:54:58,169: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:54:58
+2024-03-15 22:54:58,169: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:58,170: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:58,989: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 22:54:58
+2024-03-15 22:54:58,989: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:54:58,989: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:58,990: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:58,990: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:54:58,990: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:58,991: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:58,991: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:54:58,992: root: INFO: Current backtesting datetime 2022-09-08 15:00:00-05:00
+2024-03-15 22:54:58,992: root: INFO: Current backtesting datetime 2022-09-09 08:30:00-05:00
+2024-03-15 22:54:58,993: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:54:58
+2024-03-15 22:54:58,993: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:54:58,993: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,264: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 22:55:00
+2024-03-15 22:55:00,264: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:00,264: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,265: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,265: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:00,266: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,266: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,268: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:00,269: root: INFO: Current backtesting datetime 2022-09-09 15:00:00-05:00
+2024-03-15 22:55:00,269: root: INFO: Current backtesting datetime 2022-09-10 08:30:00-05:00
+2024-03-15 22:55:00,270: asyncio: INFO: [AlgorithmicTrader] The market is not currently open, skipping this trading iteration
+2024-03-15 22:55:00,270: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:00,270: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,271: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,271: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:00,271: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,272: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,272: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:00,272: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,273: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,273: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:00,273: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,274: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,275: root: INFO: Current backtesting datetime 2022-09-10 08:29:00-05:00
+2024-03-15 22:55:00,275: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:00,275: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,276: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,276: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:00,276: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,276: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,276: root: INFO: Current backtesting datetime 2022-09-10 08:29:00-05:00
+2024-03-15 22:55:00,276: asyncio: INFO: [AlgorithmicTrader] Executing the after_market_closes lifecycle method
+2024-03-15 22:55:00,276: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:00,276: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,276: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,276: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:00,276: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,276: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,276: root: INFO: Current backtesting datetime 2022-09-12 07:30:00-05:00
+2024-03-15 22:55:00,276: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,276: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,276: asyncio: INFO: [AlgorithmicTrader] Executing the before_market_opens lifecycle method
+2024-03-15 22:55:00,276: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:00,276: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,276: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,276: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:00,276: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,276: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,276: root: INFO: Current backtesting datetime 2022-09-12 08:30:00-05:00
+2024-03-15 22:55:00,276: asyncio: INFO: [AlgorithmicTrader] Executing the before_starting_trading lifecycle method
+2024-03-15 22:55:00,276: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:00
+2024-03-15 22:55:00,276: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,276: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,875: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 22:55:00
+2024-03-15 22:55:00,875: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:00,875: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,876: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,876: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:00,876: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,877: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,878: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:00,878: root: INFO: Current backtesting datetime 2022-09-12 15:00:00-05:00
+2024-03-15 22:55:00,878: root: INFO: Current backtesting datetime 2022-09-13 08:30:00-05:00
+2024-03-15 22:55:00,879: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:00
+2024-03-15 22:55:00,879: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:00,880: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:01,927: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: 'Position' object is not subscriptable
+2024-03-15 22:55:01,928: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 63, in on_trading_iteration
+TypeError: 'Position' object is not subscriptable
+
+2024-03-15 22:55:01,928: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 22:55:01,948: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:01,948: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:01,948: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:01,948: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:01,949: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:01,949: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:01,950: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:01,950: root: INFO: Current backtesting datetime 2022-09-13 15:00:00-05:00
+2024-03-15 22:55:01,950: root: INFO: Current backtesting datetime 2022-09-14 08:30:00-05:00
+2024-03-15 22:55:01,951: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:01
+2024-03-15 22:55:01,951: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:01,952: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:02,870: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: 'Position' object is not subscriptable
+2024-03-15 22:55:02,871: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 79, in on_trading_iteration
+TypeError: 'Position' object is not subscriptable
+
+2024-03-15 22:55:02,871: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 22:55:02,890: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:02,891: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:02,891: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:02,891: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:02,891: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:02,892: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:02,893: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:02,893: root: INFO: Current backtesting datetime 2022-09-14 15:00:00-05:00
+2024-03-15 22:55:02,893: root: INFO: Current backtesting datetime 2022-09-15 08:30:00-05:00
+2024-03-15 22:55:02,894: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:02
+2024-03-15 22:55:02,894: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:02,895: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:03,972: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: 'Position' object is not subscriptable
+2024-03-15 22:55:03,973: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 79, in on_trading_iteration
+TypeError: 'Position' object is not subscriptable
+
+2024-03-15 22:55:03,973: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 22:55:03,992: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:03,992: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:03,992: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:03,992: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:03,992: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:03,993: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:03,994: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:03,994: root: INFO: Current backtesting datetime 2022-09-15 15:00:00-05:00
+2024-03-15 22:55:03,994: root: INFO: Current backtesting datetime 2022-09-16 08:30:00-05:00
+2024-03-15 22:55:03,995: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:03
+2024-03-15 22:55:03,995: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:03,996: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:04,951: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: 'Position' object is not subscriptable
+2024-03-15 22:55:04,952: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 79, in on_trading_iteration
+TypeError: 'Position' object is not subscriptable
+
+2024-03-15 22:55:04,952: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 22:55:04,975: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:04,975: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:04,975: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:04,976: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:04,976: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:04,976: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:04,978: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:04,979: root: INFO: Current backtesting datetime 2022-09-16 15:00:00-05:00
+2024-03-15 22:55:04,979: root: INFO: Current backtesting datetime 2022-09-17 08:30:00-05:00
+2024-03-15 22:55:04,980: asyncio: INFO: [AlgorithmicTrader] The market is not currently open, skipping this trading iteration
+2024-03-15 22:55:04,980: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:04,980: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:04,981: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:04,981: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:04,981: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:04,983: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:04,984: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:04,984: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:04,984: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:04,984: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:04,984: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:04,985: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:04,986: root: INFO: Current backtesting datetime 2022-09-17 08:29:00-05:00
+2024-03-15 22:55:04,986: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:04,986: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:04,987: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:04,987: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:04,987: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:04,988: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:04,989: root: INFO: Current backtesting datetime 2022-09-17 08:29:00-05:00
+2024-03-15 22:55:04,989: asyncio: INFO: [AlgorithmicTrader] Executing the after_market_closes lifecycle method
+2024-03-15 22:55:04,989: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:04,989: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:04,989: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:04,990: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:04,990: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:04,990: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:04,991: root: INFO: Current backtesting datetime 2022-09-19 07:30:00-05:00
+2024-03-15 22:55:04,992: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:04,992: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:04,993: asyncio: INFO: [AlgorithmicTrader] Executing the before_market_opens lifecycle method
+2024-03-15 22:55:04,993: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:04,993: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:04,994: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:04,994: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:04,994: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:04,994: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:04,995: root: INFO: Current backtesting datetime 2022-09-19 08:30:00-05:00
+2024-03-15 22:55:04,995: asyncio: INFO: [AlgorithmicTrader] Executing the before_starting_trading lifecycle method
+2024-03-15 22:55:04,997: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:04
+2024-03-15 22:55:04,997: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:04,997: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:05,659: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 22:55:05
+2024-03-15 22:55:05,659: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:05,659: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:05,660: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:05,660: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:05,660: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:05,661: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:05,661: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:05,662: root: INFO: Current backtesting datetime 2022-09-19 15:00:00-05:00
+2024-03-15 22:55:05,662: root: INFO: Current backtesting datetime 2022-09-20 08:30:00-05:00
+2024-03-15 22:55:05,663: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:05
+2024-03-15 22:55:05,663: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:05,663: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:06,537: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: 'Position' object is not subscriptable
+2024-03-15 22:55:06,538: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 79, in on_trading_iteration
+TypeError: 'Position' object is not subscriptable
+
+2024-03-15 22:55:06,538: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 22:55:06,559: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:06,559: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:06,559: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:06,559: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:06,559: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:06,560: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:06,561: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:06,561: root: INFO: Current backtesting datetime 2022-09-20 15:00:00-05:00
+2024-03-15 22:55:06,561: root: INFO: Current backtesting datetime 2022-09-21 08:30:00-05:00
+2024-03-15 22:55:06,562: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:06
+2024-03-15 22:55:06,562: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:06,563: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:07,363: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: 'Position' object is not subscriptable
+2024-03-15 22:55:07,364: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 79, in on_trading_iteration
+TypeError: 'Position' object is not subscriptable
+
+2024-03-15 22:55:07,364: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 22:55:07,384: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:07,384: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:07,384: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:07,384: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:07,384: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:07,385: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:07,386: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:07,386: root: INFO: Current backtesting datetime 2022-09-21 15:00:00-05:00
+2024-03-15 22:55:07,386: root: INFO: Current backtesting datetime 2022-09-22 08:30:00-05:00
+2024-03-15 22:55:07,387: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:07
+2024-03-15 22:55:07,387: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:07,388: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:08,208: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: 'Position' object is not subscriptable
+2024-03-15 22:55:08,209: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 63, in on_trading_iteration
+TypeError: 'Position' object is not subscriptable
+
+2024-03-15 22:55:08,209: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 22:55:08,227: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:08,227: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:08,228: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:08,228: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:08,228: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:08,228: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:08,229: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:08,230: root: INFO: Current backtesting datetime 2022-09-22 15:00:00-05:00
+2024-03-15 22:55:08,230: root: INFO: Current backtesting datetime 2022-09-23 08:30:00-05:00
+2024-03-15 22:55:08,231: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:08
+2024-03-15 22:55:08,231: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:08,231: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,017: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 22:55:09
+2024-03-15 22:55:09,017: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:09,017: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,018: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,018: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:09,018: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,019: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,019: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:09,020: root: INFO: Current backtesting datetime 2022-09-23 15:00:00-05:00
+2024-03-15 22:55:09,020: root: INFO: Current backtesting datetime 2022-09-24 08:30:00-05:00
+2024-03-15 22:55:09,021: asyncio: INFO: [AlgorithmicTrader] The market is not currently open, skipping this trading iteration
+2024-03-15 22:55:09,021: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:09,021: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,022: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,022: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:09,022: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,022: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,023: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:09,023: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,023: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,024: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:09,024: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,024: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,025: root: INFO: Current backtesting datetime 2022-09-24 08:29:00-05:00
+2024-03-15 22:55:09,025: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:09,025: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,025: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,026: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:09,026: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,026: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,027: root: INFO: Current backtesting datetime 2022-09-24 08:29:00-05:00
+2024-03-15 22:55:09,027: asyncio: INFO: [AlgorithmicTrader] Executing the after_market_closes lifecycle method
+2024-03-15 22:55:09,027: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:09,027: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,027: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,027: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:09,027: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,028: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,028: root: INFO: Current backtesting datetime 2022-09-26 07:30:00-05:00
+2024-03-15 22:55:09,029: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,029: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,030: asyncio: INFO: [AlgorithmicTrader] Executing the before_market_opens lifecycle method
+2024-03-15 22:55:09,030: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:09,030: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,030: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,031: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:09,031: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,031: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,032: root: INFO: Current backtesting datetime 2022-09-26 08:30:00-05:00
+2024-03-15 22:55:09,032: asyncio: INFO: [AlgorithmicTrader] Executing the before_starting_trading lifecycle method
+2024-03-15 22:55:09,033: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:09
+2024-03-15 22:55:09,033: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,034: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,835: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: 'Position' object is not subscriptable
+2024-03-15 22:55:09,835: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 63, in on_trading_iteration
+TypeError: 'Position' object is not subscriptable
+
+2024-03-15 22:55:09,835: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 22:55:09,860: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:09,861: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,862: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,863: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:09,863: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,864: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,866: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:09,868: root: INFO: Current backtesting datetime 2022-09-26 15:00:00-05:00
+2024-03-15 22:55:09,869: root: INFO: Current backtesting datetime 2022-09-27 08:30:00-05:00
+2024-03-15 22:55:09,871: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:09
+2024-03-15 22:55:09,872: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:09,873: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:10,801: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 22:55:10
+2024-03-15 22:55:10,801: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:10,801: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:10,802: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:10,802: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:10,802: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:10,803: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:10,804: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:10,804: root: INFO: Current backtesting datetime 2022-09-27 15:00:00-05:00
+2024-03-15 22:55:10,804: root: INFO: Current backtesting datetime 2022-09-28 08:30:00-05:00
+2024-03-15 22:55:10,805: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:10
+2024-03-15 22:55:10,805: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:10,806: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:11,726: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 22:55:11
+2024-03-15 22:55:11,726: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:11,726: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:11,727: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:11,727: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:11,727: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:11,728: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:11,729: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:11,730: root: INFO: Current backtesting datetime 2022-09-28 15:00:00-05:00
+2024-03-15 22:55:11,730: root: INFO: Current backtesting datetime 2022-09-29 08:30:00-05:00
+2024-03-15 22:55:11,731: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:11
+2024-03-15 22:55:11,731: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:11,732: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:12,756: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: 'Position' object is not subscriptable
+2024-03-15 22:55:12,756: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 79, in on_trading_iteration
+TypeError: 'Position' object is not subscriptable
+
+2024-03-15 22:55:12,756: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 22:55:12,783: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:12,783: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:12,783: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:12,784: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:12,784: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:12,784: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:12,785: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:12,786: root: INFO: Current backtesting datetime 2022-09-29 15:00:00-05:00
+2024-03-15 22:55:12,786: root: INFO: Current backtesting datetime 2022-09-30 08:30:00-05:00
+2024-03-15 22:55:12,787: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:12
+2024-03-15 22:55:12,787: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:12,788: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:13,694: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 22:55:13
+2024-03-15 22:55:13,694: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:13,694: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:13,695: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:13,695: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:13,695: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:13,695: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:13,696: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:13,697: root: INFO: Current backtesting datetime 2022-09-30 15:00:00-05:00
+2024-03-15 22:55:13,697: root: INFO: Current backtesting datetime 2022-10-01 08:30:00-05:00
+2024-03-15 22:55:13,698: asyncio: INFO: [AlgorithmicTrader] The market is not currently open, skipping this trading iteration
+2024-03-15 22:55:13,698: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:13,698: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:13,699: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:13,699: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:13,699: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:13,700: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:13,700: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:13,700: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:13,701: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:13,701: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:13,701: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:13,701: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:13,703: root: INFO: Current backtesting datetime 2022-10-01 08:29:00-05:00
+2024-03-15 22:55:13,703: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:13,703: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:13,704: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:13,704: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:13,704: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:13,704: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:13,705: root: INFO: Current backtesting datetime 2022-10-01 08:29:00-05:00
+2024-03-15 22:55:13,705: asyncio: INFO: [AlgorithmicTrader] Executing the after_market_closes lifecycle method
+2024-03-15 22:55:13,705: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:13,705: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:13,705: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:13,706: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:13,706: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:13,706: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:13,707: root: INFO: Current backtesting datetime 2022-10-03 07:30:00-05:00
+2024-03-15 22:55:13,707: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:13,708: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:13,708: asyncio: INFO: [AlgorithmicTrader] Executing the before_market_opens lifecycle method
+2024-03-15 22:55:13,708: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:13,708: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:13,709: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:13,709: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:13,709: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:13,709: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:13,710: root: INFO: Current backtesting datetime 2022-10-03 08:30:00-05:00
+2024-03-15 22:55:13,710: asyncio: INFO: [AlgorithmicTrader] Executing the before_starting_trading lifecycle method
+2024-03-15 22:55:13,711: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:13
+2024-03-15 22:55:13,711: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:13,711: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:14,361: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 22:55:14
+2024-03-15 22:55:14,362: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:14,362: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:14,362: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:14,363: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:14,363: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:14,363: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:14,364: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:14,364: root: INFO: Current backtesting datetime 2022-10-03 15:00:00-05:00
+2024-03-15 22:55:14,365: root: INFO: Current backtesting datetime 2022-10-04 08:30:00-05:00
+2024-03-15 22:55:14,365: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:14
+2024-03-15 22:55:14,366: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:14,366: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:15,428: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 22:55:15
+2024-03-15 22:55:15,428: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:15,428: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:15,428: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:15,429: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:15,429: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:15,429: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:15,430: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:15,431: root: INFO: Current backtesting datetime 2022-10-04 15:00:00-05:00
+2024-03-15 22:55:15,431: root: INFO: Current backtesting datetime 2022-10-05 08:30:00-05:00
+2024-03-15 22:55:15,432: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:15
+2024-03-15 22:55:15,432: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:15,433: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:16,241: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 22:55:16
+2024-03-15 22:55:16,241: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:16,242: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:16,242: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:16,242: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:16,243: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:16,243: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:16,244: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:16,244: root: INFO: Current backtesting datetime 2022-10-05 15:00:00-05:00
+2024-03-15 22:55:16,245: root: INFO: Current backtesting datetime 2022-10-06 08:30:00-05:00
+2024-03-15 22:55:16,245: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:16
+2024-03-15 22:55:16,245: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:16,246: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:17,274: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: 'Position' object is not subscriptable
+2024-03-15 22:55:17,275: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 63, in on_trading_iteration
+TypeError: 'Position' object is not subscriptable
+
+2024-03-15 22:55:17,275: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 22:55:17,295: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:17,295: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:17,295: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:17,295: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:17,295: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:17,296: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:17,297: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:17,297: root: INFO: Current backtesting datetime 2022-10-06 15:00:00-05:00
+2024-03-15 22:55:17,297: root: INFO: Current backtesting datetime 2022-10-07 08:30:00-05:00
+2024-03-15 22:55:17,298: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:17
+2024-03-15 22:55:17,298: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:17,299: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,173: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 22:55:18
+2024-03-15 22:55:18,173: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:18,173: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,173: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,174: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:18,174: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,174: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,175: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:18,176: root: INFO: Current backtesting datetime 2022-10-07 15:00:00-05:00
+2024-03-15 22:55:18,176: root: INFO: Current backtesting datetime 2022-10-08 08:30:00-05:00
+2024-03-15 22:55:18,176: asyncio: INFO: [AlgorithmicTrader] The market is not currently open, skipping this trading iteration
+2024-03-15 22:55:18,176: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:18,177: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,177: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,177: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:18,177: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,178: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,178: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:18,178: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,179: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,179: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:18,179: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,179: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,180: root: INFO: Current backtesting datetime 2022-10-08 08:29:00-05:00
+2024-03-15 22:55:18,181: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:18,181: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,181: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,181: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:18,181: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,182: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,182: root: INFO: Current backtesting datetime 2022-10-08 08:29:00-05:00
+2024-03-15 22:55:18,182: asyncio: INFO: [AlgorithmicTrader] Executing the after_market_closes lifecycle method
+2024-03-15 22:55:18,183: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:18,183: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,183: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,183: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:18,183: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,184: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,184: root: INFO: Current backtesting datetime 2022-10-10 07:30:00-05:00
+2024-03-15 22:55:18,185: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,186: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,187: asyncio: INFO: [AlgorithmicTrader] Executing the before_market_opens lifecycle method
+2024-03-15 22:55:18,187: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:18,187: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,187: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,187: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:18,187: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,188: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,189: root: INFO: Current backtesting datetime 2022-10-10 08:30:00-05:00
+2024-03-15 22:55:18,189: asyncio: INFO: [AlgorithmicTrader] Executing the before_starting_trading lifecycle method
+2024-03-15 22:55:18,190: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:18
+2024-03-15 22:55:18,190: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,191: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,890: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 22:55:18
+2024-03-15 22:55:18,890: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:18,890: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,891: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,891: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:18,891: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,892: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,893: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:18,893: root: INFO: Current backtesting datetime 2022-10-10 15:00:00-05:00
+2024-03-15 22:55:18,893: root: INFO: Current backtesting datetime 2022-10-11 08:30:00-05:00
+2024-03-15 22:55:18,894: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:18
+2024-03-15 22:55:18,894: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:18,895: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:19,729: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: 'Position' object is not subscriptable
+2024-03-15 22:55:19,730: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 79, in on_trading_iteration
+TypeError: 'Position' object is not subscriptable
+
+2024-03-15 22:55:19,730: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 22:55:19,755: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:19,755: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:19,756: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:19,756: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:19,756: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:19,757: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:19,758: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:19,759: root: INFO: Current backtesting datetime 2022-10-11 15:00:00-05:00
+2024-03-15 22:55:19,759: root: INFO: Current backtesting datetime 2022-10-12 08:30:00-05:00
+2024-03-15 22:55:19,760: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:19
+2024-03-15 22:55:19,760: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:19,761: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:20,573: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 22:55:20
+2024-03-15 22:55:20,573: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:20,573: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:20,574: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:20,575: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:20,575: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:20,575: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:20,576: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:20,577: root: INFO: Current backtesting datetime 2022-10-12 15:00:00-05:00
+2024-03-15 22:55:20,577: root: INFO: Current backtesting datetime 2022-10-13 08:30:00-05:00
+2024-03-15 22:55:20,577: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:20
+2024-03-15 22:55:20,578: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:20,578: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:21,451: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: 'Position' object is not subscriptable
+2024-03-15 22:55:21,452: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 63, in on_trading_iteration
+TypeError: 'Position' object is not subscriptable
+
+2024-03-15 22:55:21,452: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 22:55:21,471: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:21,471: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:21,471: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:21,471: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:21,471: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:21,472: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:21,472: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:21,473: root: INFO: Current backtesting datetime 2022-10-13 15:00:00-05:00
+2024-03-15 22:55:21,473: root: INFO: Current backtesting datetime 2022-10-14 08:30:00-05:00
+2024-03-15 22:55:21,474: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:21
+2024-03-15 22:55:21,474: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:21,474: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:22,442: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: 'Position' object is not subscriptable
+2024-03-15 22:55:22,443: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 63, in on_trading_iteration
+TypeError: 'Position' object is not subscriptable
+
+2024-03-15 22:55:22,443: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 22:55:22,462: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:22,462: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:22,462: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:22,462: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:22,462: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:22,463: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:22,464: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:22,464: root: INFO: Current backtesting datetime 2022-10-14 15:00:00-05:00
+2024-03-15 22:55:22,464: root: INFO: Current backtesting datetime 2022-10-15 08:30:00-05:00
+2024-03-15 22:55:22,465: asyncio: INFO: [AlgorithmicTrader] The market is not currently open, skipping this trading iteration
+2024-03-15 22:55:22,465: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:22,465: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:22,466: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:22,466: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:22,466: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:22,466: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:22,467: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:22,467: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:22,467: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:22,467: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:22,467: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:22,468: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:22,468: root: INFO: Current backtesting datetime 2022-10-15 08:29:00-05:00
+2024-03-15 22:55:22,469: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:22,469: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:22,469: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:22,469: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:22,469: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:22,470: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:22,471: root: INFO: Current backtesting datetime 2022-10-15 08:29:00-05:00
+2024-03-15 22:55:22,471: asyncio: INFO: [AlgorithmicTrader] Executing the after_market_closes lifecycle method
+2024-03-15 22:55:22,471: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:22,471: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:22,471: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:22,471: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:22,471: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:22,472: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:22,472: root: INFO: Current backtesting datetime 2022-10-17 07:30:00-05:00
+2024-03-15 22:55:22,473: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:22,473: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:22,474: asyncio: INFO: [AlgorithmicTrader] Executing the before_market_opens lifecycle method
+2024-03-15 22:55:22,474: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:22,474: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:22,474: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:22,475: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:22,475: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:22,475: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:22,476: root: INFO: Current backtesting datetime 2022-10-17 08:30:00-05:00
+2024-03-15 22:55:22,476: asyncio: INFO: [AlgorithmicTrader] Executing the before_starting_trading lifecycle method
+2024-03-15 22:55:22,478: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:22
+2024-03-15 22:55:22,478: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:22,478: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:23,173: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 22:55:23
+2024-03-15 22:55:23,173: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:23,173: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:23,174: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:23,174: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:23,174: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:23,174: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:23,175: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:23,176: root: INFO: Current backtesting datetime 2022-10-17 15:00:00-05:00
+2024-03-15 22:55:23,176: root: INFO: Current backtesting datetime 2022-10-18 08:30:00-05:00
+2024-03-15 22:55:23,177: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:23
+2024-03-15 22:55:23,177: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:23,177: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:24,021: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: 'Position' object is not subscriptable
+2024-03-15 22:55:24,021: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 79, in on_trading_iteration
+TypeError: 'Position' object is not subscriptable
+
+2024-03-15 22:55:24,021: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 22:55:24,041: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:24,041: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:24,041: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:24,041: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:24,042: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:24,042: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:24,043: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:24,043: root: INFO: Current backtesting datetime 2022-10-18 15:00:00-05:00
+2024-03-15 22:55:24,043: root: INFO: Current backtesting datetime 2022-10-19 08:30:00-05:00
+2024-03-15 22:55:24,044: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:24
+2024-03-15 22:55:24,044: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:24,045: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:24,859: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 22:55:24
+2024-03-15 22:55:24,859: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:24,859: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:24,860: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:24,860: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:24,860: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:24,861: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:24,863: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:24,863: root: INFO: Current backtesting datetime 2022-10-19 15:00:00-05:00
+2024-03-15 22:55:24,863: root: INFO: Current backtesting datetime 2022-10-20 08:30:00-05:00
+2024-03-15 22:55:24,864: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:24
+2024-03-15 22:55:24,864: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:24,865: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:25,784: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 22:55:25
+2024-03-15 22:55:25,785: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:25,785: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:25,785: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:25,786: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:25,786: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:25,787: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:25,788: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:25,788: root: INFO: Current backtesting datetime 2022-10-20 15:00:00-05:00
+2024-03-15 22:55:25,788: root: INFO: Current backtesting datetime 2022-10-21 08:30:00-05:00
+2024-03-15 22:55:25,789: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:25
+2024-03-15 22:55:25,790: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:25,790: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,041: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 22:55:27
+2024-03-15 22:55:27,041: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:27,041: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,042: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,042: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:27,042: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,043: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,044: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:27,044: root: INFO: Current backtesting datetime 2022-10-21 15:00:00-05:00
+2024-03-15 22:55:27,045: root: INFO: Current backtesting datetime 2022-10-22 08:30:00-05:00
+2024-03-15 22:55:27,045: asyncio: INFO: [AlgorithmicTrader] The market is not currently open, skipping this trading iteration
+2024-03-15 22:55:27,045: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:27,045: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,046: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,046: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:27,046: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,047: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,048: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:27,048: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,048: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,048: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:27,049: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,049: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,050: root: INFO: Current backtesting datetime 2022-10-22 08:29:00-05:00
+2024-03-15 22:55:27,051: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:27,051: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,051: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,051: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:27,051: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,052: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,053: root: INFO: Current backtesting datetime 2022-10-22 08:29:00-05:00
+2024-03-15 22:55:27,053: asyncio: INFO: [AlgorithmicTrader] Executing the after_market_closes lifecycle method
+2024-03-15 22:55:27,053: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:27,053: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,053: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,053: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:27,053: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,054: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,055: root: INFO: Current backtesting datetime 2022-10-24 07:30:00-05:00
+2024-03-15 22:55:27,056: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,056: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,058: asyncio: INFO: [AlgorithmicTrader] Executing the before_market_opens lifecycle method
+2024-03-15 22:55:27,058: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:27,058: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,058: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,059: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:27,059: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,059: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,060: root: INFO: Current backtesting datetime 2022-10-24 08:30:00-05:00
+2024-03-15 22:55:27,060: asyncio: INFO: [AlgorithmicTrader] Executing the before_starting_trading lifecycle method
+2024-03-15 22:55:27,062: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:27
+2024-03-15 22:55:27,062: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,063: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,911: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: 'Position' object is not subscriptable
+2024-03-15 22:55:27,912: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 63, in on_trading_iteration
+TypeError: 'Position' object is not subscriptable
+
+2024-03-15 22:55:27,912: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 22:55:27,938: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:27,938: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,939: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,939: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:27,939: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,940: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,941: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:27,942: root: INFO: Current backtesting datetime 2022-10-24 15:00:00-05:00
+2024-03-15 22:55:27,942: root: INFO: Current backtesting datetime 2022-10-25 08:30:00-05:00
+2024-03-15 22:55:27,943: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:27
+2024-03-15 22:55:27,943: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:27,944: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:28,865: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 22:55:28
+2024-03-15 22:55:28,865: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:28,865: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:28,866: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:28,867: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:28,867: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:28,868: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:28,869: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:28,869: root: INFO: Current backtesting datetime 2022-10-25 15:00:00-05:00
+2024-03-15 22:55:28,870: root: INFO: Current backtesting datetime 2022-10-26 08:30:00-05:00
+2024-03-15 22:55:28,870: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:28
+2024-03-15 22:55:28,871: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:28,871: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:29,814: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 22:55:29
+2024-03-15 22:55:29,814: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:29,815: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:29,816: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:29,816: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:29,816: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:29,817: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:29,819: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:29,820: root: INFO: Current backtesting datetime 2022-10-26 15:00:00-05:00
+2024-03-15 22:55:29,820: root: INFO: Current backtesting datetime 2022-10-27 08:30:00-05:00
+2024-03-15 22:55:29,821: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:29
+2024-03-15 22:55:29,822: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:29,824: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:31,052: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: 'Position' object is not subscriptable
+2024-03-15 22:55:31,052: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 63, in on_trading_iteration
+TypeError: 'Position' object is not subscriptable
+
+2024-03-15 22:55:31,052: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 22:55:31,113: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:31,113: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:31,113: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:31,113: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:31,113: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:31,113: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:31,113: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:31,113: root: INFO: Current backtesting datetime 2022-10-27 15:00:00-05:00
+2024-03-15 22:55:31,113: root: INFO: Current backtesting datetime 2022-10-28 08:30:00-05:00
+2024-03-15 22:55:31,113: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:31
+2024-03-15 22:55:31,113: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:31,113: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:32,791: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 22:55:32
+2024-03-15 22:55:32,791: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:32,791: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:32,793: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:32,794: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:32,794: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:32,795: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:32,797: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:32,799: root: INFO: Current backtesting datetime 2022-10-28 15:00:00-05:00
+2024-03-15 22:55:32,800: root: INFO: Current backtesting datetime 2022-10-29 08:30:00-05:00
+2024-03-15 22:55:32,802: asyncio: INFO: [AlgorithmicTrader] The market is not currently open, skipping this trading iteration
+2024-03-15 22:55:32,802: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:32,802: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:32,803: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:32,804: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:32,804: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:32,805: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:32,807: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:32,807: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:32,808: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:32,809: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:32,809: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:32,809: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:32,811: root: INFO: Current backtesting datetime 2022-10-29 08:29:00-05:00
+2024-03-15 22:55:32,812: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:32,812: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:32,813: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:32,814: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:32,814: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:32,814: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:32,814: root: INFO: Current backtesting datetime 2022-10-29 08:29:00-05:00
+2024-03-15 22:55:32,814: asyncio: INFO: [AlgorithmicTrader] Executing the after_market_closes lifecycle method
+2024-03-15 22:55:32,814: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:32,814: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:32,814: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:32,814: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:32,814: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:32,814: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:32,814: root: INFO: Current backtesting datetime 2022-10-31 07:30:00-05:00
+2024-03-15 22:55:32,814: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:32,814: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:32,814: asyncio: INFO: [AlgorithmicTrader] Executing the before_market_opens lifecycle method
+2024-03-15 22:55:32,814: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:32,814: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:32,814: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:32,814: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:32,814: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:32,829: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:32,829: root: INFO: Current backtesting datetime 2022-10-31 08:30:00-05:00
+2024-03-15 22:55:32,829: asyncio: INFO: [AlgorithmicTrader] Executing the before_starting_trading lifecycle method
+2024-03-15 22:55:32,829: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:32
+2024-03-15 22:55:32,829: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:32,829: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:34,019: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 22:55:34
+2024-03-15 22:55:34,019: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:34,019: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:34,021: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:34,021: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:34,021: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:34,023: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:34,025: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:34,026: root: INFO: Current backtesting datetime 2022-10-31 15:00:00-05:00
+2024-03-15 22:55:34,026: root: INFO: Current backtesting datetime 2022-11-01 08:30:00-05:00
+2024-03-15 22:55:34,029: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:34
+2024-03-15 22:55:34,029: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:34,030: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:35,846: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: 'Position' object is not subscriptable
+2024-03-15 22:55:35,846: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 63, in on_trading_iteration
+TypeError: 'Position' object is not subscriptable
+
+2024-03-15 22:55:35,846: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 22:55:35,892: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:35,892: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:35,894: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:35,894: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:35,894: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:35,894: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:35,896: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:35,897: root: INFO: Current backtesting datetime 2022-11-01 15:00:00-05:00
+2024-03-15 22:55:35,897: root: INFO: Current backtesting datetime 2022-11-02 08:30:00-05:00
+2024-03-15 22:55:35,898: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:35
+2024-03-15 22:55:35,899: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:35,899: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:37,815: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: 'Position' object is not subscriptable
+2024-03-15 22:55:37,815: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 63, in on_trading_iteration
+TypeError: 'Position' object is not subscriptable
+
+2024-03-15 22:55:37,815: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 22:55:37,876: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:37,876: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:37,877: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:37,878: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:37,878: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:37,879: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:37,881: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:37,882: root: INFO: Current backtesting datetime 2022-11-02 15:00:00-05:00
+2024-03-15 22:55:37,882: root: INFO: Current backtesting datetime 2022-11-03 08:30:00-05:00
+2024-03-15 22:55:37,884: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:37
+2024-03-15 22:55:37,884: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:37,886: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:39,674: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 22:55:39
+2024-03-15 22:55:39,674: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:39,674: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:39,674: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:39,674: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:39,674: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:39,674: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:39,674: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:39,674: root: INFO: Current backtesting datetime 2022-11-03 15:00:00-05:00
+2024-03-15 22:55:39,674: root: INFO: Current backtesting datetime 2022-11-04 08:30:00-05:00
+2024-03-15 22:55:39,674: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:39
+2024-03-15 22:55:39,674: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:39,674: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:41,387: asyncio: INFO: [AlgorithmicTrader] An error occurred during the on_trading_iteration lifecycle method: 'Position' object is not subscriptable
+2024-03-15 22:55:41,388: asyncio: INFO: [AlgorithmicTrader] Traceback (most recent call last):
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\venv\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taaha\Desktop\Classes\InterviewPrep\Projects\AlgorithmicTrader\AlgorithmicTrader\tradingbot.py", line 63, in on_trading_iteration
+TypeError: 'Position' object is not subscriptable
+
+2024-03-15 22:55:41,388: asyncio: INFO: [AlgorithmicTrader] Executing the on_bot_crash event method
+2024-03-15 22:55:41,439: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:41,439: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:41,440: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:41,440: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:41,440: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:41,440: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:41,440: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:41,440: root: INFO: Current backtesting datetime 2022-11-04 15:00:00-05:00
+2024-03-15 22:55:41,440: root: INFO: Current backtesting datetime 2022-11-05 08:30:00-05:00
+2024-03-15 22:55:41,440: asyncio: INFO: [AlgorithmicTrader] The market is not currently open, skipping this trading iteration
+2024-03-15 22:55:41,440: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:41,440: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:41,440: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:41,440: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:41,440: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:41,440: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:41,440: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:41,440: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:41,440: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:41,440: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:41,440: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:41,440: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:41,440: root: INFO: Current backtesting datetime 2022-11-05 08:29:00-05:00
+2024-03-15 22:55:41,440: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:41,440: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:41,440: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:41,440: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:41,440: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:41,440: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:41,456: root: INFO: Current backtesting datetime 2022-11-05 08:29:00-05:00
+2024-03-15 22:55:41,456: asyncio: INFO: [AlgorithmicTrader] Executing the after_market_closes lifecycle method
+2024-03-15 22:55:41,456: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:41,456: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:41,456: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:41,456: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:41,456: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:41,456: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:41,456: root: INFO: Current backtesting datetime 2022-11-07 08:30:00-05:00
+2024-03-15 22:55:41,456: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:41,456: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:41,456: asyncio: INFO: [AlgorithmicTrader] Executing the before_market_opens lifecycle method
+2024-03-15 22:55:41,456: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:41,456: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:41,456: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:41,456: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:41,456: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:41,456: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:41,471: root: INFO: Current backtesting datetime 2022-11-07 09:30:00-05:00
+2024-03-15 22:55:41,471: asyncio: INFO: [AlgorithmicTrader] Executing the before_starting_trading lifecycle method
+2024-03-15 22:55:41,471: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:41
+2024-03-15 22:55:41,471: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:41,471: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:42,950: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 22:55:42
+2024-03-15 22:55:42,950: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:42,950: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:42,951: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:42,952: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:42,952: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:42,953: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:42,955: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:42,957: root: INFO: Current backtesting datetime 2022-11-07 16:00:00-05:00
+2024-03-15 22:55:42,957: root: INFO: Current backtesting datetime 2022-11-08 09:30:00-05:00
+2024-03-15 22:55:42,960: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:42
+2024-03-15 22:55:42,960: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:42,962: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:44,629: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 22:55:44
+2024-03-15 22:55:44,629: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:44,629: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:44,630: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:44,632: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:44,632: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:44,632: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:44,634: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:44,636: root: INFO: Current backtesting datetime 2022-11-08 16:00:00-05:00
+2024-03-15 22:55:44,636: root: INFO: Current backtesting datetime 2022-11-09 09:30:00-05:00
+2024-03-15 22:55:44,638: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:44
+2024-03-15 22:55:44,639: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:44,640: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:46,246: asyncio: INFO: [AlgorithmicTrader] Trading iteration ended at 2024-03-15 22:55:46
+2024-03-15 22:55:46,246: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:46,246: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:46,246: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:46,246: asyncio: INFO: [AlgorithmicTrader] Getting historical prices for SPY, 1 bars, 
+2024-03-15 22:55:46,246: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:46,246: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:46,246: asyncio: INFO: [AlgorithmicTrader] Sleeping for 86400 seconds
+2024-03-15 22:55:46,262: root: INFO: Current backtesting datetime 2022-11-09 16:00:00-05:00
+2024-03-15 22:55:46,262: root: INFO: Current backtesting datetime 2022-11-10 09:30:00-05:00
+2024-03-15 22:55:46,262: asyncio: INFO: [AlgorithmicTrader] Executing the on_trading_iteration lifecycle method at 2024-03-15 22:55:46
+2024-03-15 22:55:46,262: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-15 22:55:46,262: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
