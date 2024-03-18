@@ -40,7 +40,7 @@ class AlgorithmicTrader(Strategy):
         # This is for retrieving relevant news information.
         self.api = REST(base_url=BASE_URL, key_id=API_KEY, secret_key=API_SECRET)
 
-    def position_sizing(self) -> Tuple[int, int, int]:
+    def position_sizing(self) -> Tuple[float, float, int]:
         """
         Calculates the number of shares to trade based on available cash and the amount at risk.
 
